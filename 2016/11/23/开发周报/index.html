@@ -327,10 +327,7 @@
 	
 		<h2 id="关于框架的搭建"><a href="#关于框架的搭建" class="headerlink" title="关于框架的搭建"></a>关于框架的搭建</h2><p>随着我的开发经验不断增加，一个一个的项目随之完成，也积累了一些关于搭建框架的见解。接下来整理思路，把我的一些想法写下来，方便以后不断订正，寻求技术思想上的进步。</p>
 <h3 id="1-项目目录整理"><a href="#1-项目目录整理" class="headerlink" title="1.项目目录整理"></a>1.项目目录整理</h3><p>自从开始开发新项目，我发现我的目录结构还和以前一样没有改变，我在思索（是否有一些更好的项目目录结构可以尝试？）。恰巧我刚从博客上看到一位开发者的目录结构值得我一试，他的目录结构总体分为：</p>
-<p>工程文件夹–</p>
-<p>   程序入口代码文件夹  —</p>
-<p>   项目工程代码文件夹  —<br>                     工程宏定义文件夹    —<br>                     工程综合文件夹      —<br>                     工程辅助类文件夹    —<br>                     工程功能模块文件夹   —</p>
-<p>   资源文件       —</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">工程文件夹--</div><div class="line"></div><div class="line">   程序入口代码文件夹  ---</div><div class="line"></div><div class="line">   项目工程代码文件夹  ---</div><div class="line">                     工程宏定义文件夹    ---</div><div class="line">                     工程综合文件夹      ---</div><div class="line">                     工程辅助类文件夹    ---</div><div class="line">                     工程功能模块文件夹   ---</div><div class="line"></div><div class="line">   资源文件       ---</div></pre></td></tr></table></figure>
 <p>总体的目录结构如上，独立开发的话可以把一些常用的文件直接放到第一层，方便打开文件夹直观的看到需要寻找的目标文件，项目目录的正确思路应该是常用就近原则。而团队开发各个人负责独立的模块对目录快捷打开并没有太大需求，团队需要的是能够快速的找到目标文件，所以目录结构命名要严格的规范起来，目录结构要直观清晰。</p>
 <h3 id="2-仔细观察UI原型设计。"><a href="#2-仔细观察UI原型设计。" class="headerlink" title="2.仔细观察UI原型设计。"></a>2.仔细观察UI原型设计。</h3><p> 这一点是十分必要的，观察原型分析以后可能用到的技术点，以及一些可以复用的常用类，在大脑中整理出一个可以合理的解决思路。这一步最核心的就是观察和洞察。</p>
 <h3 id="3-考虑项目中常用的类，提前进行封装和找到常用的第三方。"><a href="#3-考虑项目中常用的类，提前进行封装和找到常用的第三方。" class="headerlink" title="3.考虑项目中常用的类，提前进行封装和找到常用的第三方。"></a>3.考虑项目中常用的类，提前进行封装和找到常用的第三方。</h3><p>如果说上一步是看，而这一步主要是你实际的做，这里在封装上多说一句，要尽量保持可扩展性和兼容性。</p>
