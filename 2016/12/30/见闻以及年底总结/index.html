@@ -4,7 +4,7 @@
     <!-- Title -->
     
     <title>
-        archive_a: 2016/12 | YymBlog
+        见闻以及年底总结 | YymBlog
     </title>
     
     <!-- Favicons -->
@@ -40,7 +40,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="archive_a: 2016/12 | YymBlog">
+    <meta property="og:title" content="见闻以及年底总结 | YymBlog">
     <meta property="og:description" content="null">
     
      <!--[if lte IE 9]>
@@ -192,268 +192,209 @@
                 </button>
 				
 				
-                <!-- Index Module -->
-<div class="material-index mdl-grid">
-	
-		<!-- Paradox Header -->
-		<!-- Daily pic -->
-<div class="mdl-card daily-pic mdl-cell mdl-cell--8-col index-top-block">
-    
-    <!-- Pic & Slogan -->
-    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
-        <p class="index-top-block-slogan"><a href="#">Hi , Focus On my World .</a></p>
-    </div>
+                
+	<!-- Back Button -->
+<!--
+	<div class="material-back" id="backhome-div" tabindex="0">
+		<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="#" onclick="window.history.back();return false;" target="_self" role="button" data-upgraded=",MaterialButton,MaterialRipple">
+			<i class="material-icons" role="presentation">arrow_back</i>
+			<span class="mdl-button__ripple-container">
+				<span class="mdl-ripple"></span>
+			</span>
+		</a>
+	</div>			
+-->
+	<!-- Left aligned menu below button -->
+	<button id="post-toc-trigger-btn"
+			class="mdl-button mdl-js-button mdl-button--icon">
+	  <i class="material-icons">format_list_numbered</i>
+	</button>
 
-    <!-- Avatar & Name -->
-    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-        <!-- Author Avatar -->
-        <div id="author-avatar">
-            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
-        </div>
-        <div>
-            <strong>YYM</strong>
-        </div>
-    </div>
-</div>
-
-		<!-- Blog info -->
-<div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop index-top-block">
-	
-    <!-- Search -->
-	
-	<!-- Google -->
-	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
-		<label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
-			<i class="material-icons mdl-color-text--white" role="presentation">search</i>
-		</label>
-
-		<form id="search-form" method="get" action="//google.com/search" accept-charset="UTF-8" class="mdl-textfield__expandable-holder" target="_blank">
-			<input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
-			<label id="search-form-label" class="mdl-textfield__label" for="search"></label>
+	<ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+		for="post-toc-trigger-btn">
 			
-			<input type="hidden" name="sitesearch" value="http://yoursite.com">
-		</form>
-	</div>
-
-
-
-
-
-
-    <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
-        <a href="null">
-            <img src="/img/logo.png" alt="logo" />
-        </a>
-    </div>
-
-    <!-- Infomation -->
-    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-        <!-- Blog Title -->
-        <div>
-            <strong>YymBlog</strong>
-        </div>
-        <div class="section-spacer"></div>
-        
-        <!-- Pages -->
-        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">view_carousel</i>
-            <span class="visuallyhidden">Pages</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
-            
-                <a class="index_share-link" href="/about" title="about">
-                    <l class="mdl-menu__item mdl-js-ripple-effect"i>
-                        about
-                    </li>
-                </a>
-            
-        </ul>
-        
-        <!-- Menu -->
-        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">more_vert</i>
-            <span class="visuallyhidden">show menu</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-            
-            <a class="index_share-link" href="null">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    文章 RSS
-                </li>
-            </a>
-            <a class="index_share-link" href="https://twitter.com/intent/tweet?text=YymBlog&url=http://yoursite.com/&via=YYM" target="_blank">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    分享到 Twitter
-                </li>
-            </a>
-            <a class="index_share-link" href="https://plus.google.com/share?url=http://yoursite.com/" target="_blank">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    分享到 Google+
-                </li>
-            </a>
-            <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=YymBlog&url=http://yoursite.com/&pic=&searchPic=false&style=simple" target="_blank">
-                <li class="mdl-menu__item mdl-js-ripple-effect">
-                    分享到微博
-                </li>
-            </a>
-        </ul>
-    </div>
-</div>
-
-	
-    
-    
+			<ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#最近发生的一些事"><span class="post-toc-number">1.</span> <span class="post-toc-text">最近发生的一些事</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#罗辑思维跨年演讲将要举行"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">罗辑思维跨年演讲将要举行</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#高晓松的节目《晓松奇谈》今天最后一期"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">高晓松的节目《晓松奇谈》今天最后一期</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#关于微信小程序"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">关于微信小程序</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#年度总结"><span class="post-toc-number">2.</span> <span class="post-toc-text">年度总结</span></a></li></ol>
 		
-			<!-- Paradox Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-    
-    <!-- Post Thumbnail -->
+<!--			<li class="mdl-menu__item">Some Action</li>-->
+	</ul>
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+		
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+	<!-- Paradox Post Header -->
 	
 		
 			<!-- Random Thumbnail -->
 			<div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-		
-	
-				
-		<!-- Post Title -->
-		<p class="article-headline-p"><a href="/2016/12/30/见闻以及年底总结/">见闻以及年底总结</a></p>
-	</div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-           今天周五，明天放假。现在利用在公司的时间写一篇博客，写这篇博客呢，并没有什么特别想要表达的思想,也许只是在寥寥无几的博客上再加上一篇，发发牢骚,这...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2016/12/30/见闻以及年底总结/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="YYM's avatar">
-            </div>
-            <div>
-                <strong>YYM</strong>
-                <span>12月 30, 2016</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-            
-            
-                <!-- Comment Number -->
-                &nbsp;|&nbsp;
-                <span class="post_entry-comment" >
-                        <span class="ds-thread-count" data-thread-key="undefined" data-count-type="comments"></span>
-                </span>
-            
-            
-            <!-- Post Views -->
-            <span class="post_entry-views">
-                
-            </span>
-        </div>
-    </div>
-            
-</div>
-
-		
-		
-    
-		
-			<!-- Paradox Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-    
-    <!-- Post Thumbnail -->
-	
-		
-			<!-- Random Thumbnail -->
-			<div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-		
-	
-				
-		<!-- Post Title -->
-		<p class="article-headline-p"><a href="/2016/12/03/关于“巨婴”的反思/">关于“巨婴”的反思</a></p>
-	</div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-          最近看了罗老师的节目 “巨婴国“ 很受触动，这期节目让我认识到其实自己还是一个程度很深的巨婴！这才使我开始写这篇文章来认识自己，从而得到心理治疗。
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2016/12/03/关于“巨婴”的反思/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="YYM's avatar">
-            </div>
-            <div>
-                <strong>YYM</strong>
-                <span>12月 03, 2016</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-            
-            
-                <!-- Comment Number -->
-                &nbsp;|&nbsp;
-                <span class="post_entry-comment" >
-                        <span class="ds-thread-count" data-thread-key="undefined" data-count-type="comments"></span>
-                </span>
-            
-            
-            <!-- Post Views -->
-            <span class="post_entry-views">
-                
-            </span>
-        </div>
-    </div>
-            
-</div>
-
-		
-		
-    
-    
-	
-		<script>
+				<script>
     
     var randomNum;
+    randomNum = Math.floor(Math.random() * 5 + 1);
     
-    var locatePost = $(".something-else").next();
-    for(var i=0; i < 10; i++){
-        
-        randomNum = Math.floor(Math.random() * 5 + 1);
-        
-        locatePost.children(".post_thumbnail-random").attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/' + randomNum + '.png' + ')')
-        
-        locatePost = locatePost.next();
-    }
+    $(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/' + randomNum + '.png' + ')');
     
 </script>
 
+		
+	
+        <p class="article-headline-p">
+            见闻以及年底总结
+        </p>
+    </div>
+
 	
 
+				
+				
+					<!-- Paradox Post Info -->
+					<div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+    
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>YYM</strong>
+        <span>12月 30, 2016</span>
+    </div>
+    
+    <div class="section-spacer"></div>
+	
+    <!-- Favorite -->
+<!--
+    <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+        <i class="material-icons" role="presentation">favorite</i>
+        <span class="visuallyhidden">favorites</span>
+    </button>
+-->
+    
+    <!-- Tags (bookmark) -->
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+    
+    
+    
+    
+    <!-- Share Twitter -->
+    <a class="post_share-link" href="https://twitter.com/intent/tweet?text=见闻以及年底总结&url=http://yoursite.com//2016/12/30/见闻以及年底总结/index.html&via=YYM" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Twitter
+        </li>
+    </a>
+    
+    <!-- Share Google+ -->
+    <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com//2016/12/30/见闻以及年底总结/index.html" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Google+
+        </li>
+    </a>
+    
+    <!-- Share Weibo -->
+    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=见闻以及年底总结&url=http://yoursite.com//2016/12/30/见闻以及年底总结/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <li class="mdl-menu__item">
+            分享到微博
+        </li>
+    </a>
+</ul>
 </div>
+				
+
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+	
+		<p> 今天周五，明天放假。现在利用在公司的时间写一篇博客，写这篇博客呢，并没有什么特别想要表达的思想,也许只是在寥寥无几的博客上再加上一篇，发发牢骚,这标题我都改了好几次，最终就用这么笼统的文字表达我想写的内容。 </p>
+<h2 id="最近发生的一些事"><a href="#最近发生的一些事" class="headerlink" title="最近发生的一些事"></a>最近发生的一些事</h2><h3 id="罗辑思维跨年演讲将要举行"><a href="#罗辑思维跨年演讲将要举行" class="headerlink" title="罗辑思维跨年演讲将要举行"></a>罗辑思维跨年演讲将要举行</h3><p>去年看罗胖在台上演讲觉的蛮有意思的，讲了一些大企业的危机感，包括资本寒冬，创业等等主题依然在我健忘的大脑下留下了一些印象。在我的角度看来，他已经很成功了，希望今年的演讲一样精彩。</p>
+<h3 id="高晓松的节目《晓松奇谈》今天最后一期"><a href="#高晓松的节目《晓松奇谈》今天最后一期" class="headerlink" title="高晓松的节目《晓松奇谈》今天最后一期"></a>高晓松的节目《晓松奇谈》今天最后一期</h3><p>我被《晓松奇谈》吸引是因为高晓松学识渊博。他认识很多的人，又在国外待了一段时间，可以把他的见闻传播给我这种村野匹夫，让我也开开眼界，实在是感谢！激发了我多出去走走，好好的看看这个世界的兴趣。有人说，别人所看到的世界并不是你所看到的世界，可是对于一个没能力行走的人，别人去远方看到的世界难道不那么真实吗？虽然他所讲的有些内容有我不赞同的地方，但这都不重要，尤其是当今空前复杂的社会，谈论对与错都有些显得很低级。我经常看到有些人评论别人,”他的价值观是不完整的”，这句废话好似是为了说”谁的价值观是TM完整的”。</p>
+<h3 id="关于微信小程序"><a href="#关于微信小程序" class="headerlink" title="关于微信小程序"></a>关于微信小程序</h3><p>作为一个nativeApp开发者对小程序有这排斥，恐慌的感觉，有前端开发者说“你们native要完蛋了”，也有人不停的转发小程序的消息，仿佛在提前给native烧纸。相比小程序native优势在于体验好，第一窗口。但是，看完张小龙这些话我不觉的native还有优势：</p>
+<hr>
+<p>我认为所有的应用程序应该是一种无处不在，但是又可以随时访问的一种状态，所以小程序在内测的时候，我写了一段文字，说什么是小程序？小程序是一种不需要下载、安装即可使用的应用，它实现了触手可及的梦想，用户扫一扫或者搜一下就能打开应用，也实现了用完即走的理念，用户不用安装太多应用，应用随处可用，但又无须安装卸载。</p>
+<p>在手机时代用户获得了更便利的使用方式，也是更懒的使用方式，越来越多的用户更多的只愿意每天只使用那么几个APP，而不愿意去下载或者使用很多很多APP，这一点跟在PC互联网时代很不一样，PC时代你打开电脑以后，要访问一个网页是很快捷的，你可以从一个网页跳到另外一个网页，大家每天在PC前面花更多的时间是在浏览器上，但是在智能手机时代，包括在座的每一个人，其实打开浏览器的频率会越来越低。可能有一天你要访问20个网站，现在你不会在手机里面每天要打开20个APP，或者为了访问一个企业的服务去下载这个企业的APP，大家不会这样去做的。</p>
+<p>小程序的特性：无须安装、触手可及、用完即走、无须卸载</p>
+<hr>
+<p>为什么native没有优势了，因为思想的层面已经没有优势了。</p>
+<h2 id="年度总结"><a href="#年度总结" class="headerlink" title="年度总结"></a>年度总结</h2><p>今年的感觉就是过的很快！雾霾！懒！<br>我也知道要充实！清新！自律！</p>
+
+	
+	
+	
+	
+</div>
+				
+				
+
+                <!-- Post Comments -->
+                
+    <!-- 使用多说评论 -->
+    <link rel="stylesheet" href="/css/duoshuo.min.css">
+<style>
+    #ds-thread #ds-reset .ds-post-button{
+        background-color: #0097A7 !important;
+    }
+    #ds-wrapper #ds-reset .ds-icons-32{
+        background-color: #0097A7 !important;
+    }
+    #ds-reset .ds-highlight {
+        color: #0097A7 !important;
+    }
+</style>
+<div id="comments">
+    <!-- 多说评论框 start -->
+        <div class="ds-thread" 
+            data-thread-key="2016/12/30/见闻以及年底总结/" 
+            data-url="http://yoursite.com//2016/12/30/见闻以及年底总结/index.html"
+            data-title="见闻以及年底总结"></div>
+    <!-- 多说评论框 end -->
+</div>
+
+
+
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2016/12/03/关于“巨婴”的反思/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+        </div>
+    </div>
 
 				
 				
